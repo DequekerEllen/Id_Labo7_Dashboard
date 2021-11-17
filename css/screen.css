@@ -63,6 +63,8 @@ html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  height: 100vh;
 }
 
 *,
@@ -333,22 +335,23 @@ input::placeholder {
   border-radius: 10px;
 }
 
-.c-app {
+/* .c-app {
   min-height: 100vh;
-}
+  overflow: hidden;
+} */
 
 .c-app__logo {
   background-color: var(--global-color-neutral-xx-dark);
   height: 70px;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
 }
 
 .c-app__topbar {
   background-color: white;
   box-shadow: var(--global-box-shadow-topbar);
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
 }
 
 .c-app__sidebar {
